@@ -38,8 +38,13 @@
     padding-bottom: 60px;
 }
 
-a span {
-    font-weight: 700;
+ul li a {
+    opacity: 0.5;
+}
+
+ul li a:hover {
+    opacity: 1;
+    font-weight: 700;  
 }
 
 #navegacao ul {
