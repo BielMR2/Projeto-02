@@ -33,13 +33,14 @@
     font-weight: 400;
     line-height: normal; 
 
-    text-decoration: none;
-
     padding-bottom: 60px;
 }
 
 ul li a {
+    color: var(--1-f-1534-hyfen, #1F1534);
     opacity: 0.5;
+    
+    text-decoration: none;
 }
 
 ul li a:hover {
@@ -104,6 +105,8 @@ button {
 
     padding: 15px 32px;
     gap: 10px;
+
+    cursor: pointer;
 }
 
 button a {
@@ -115,6 +118,12 @@ button a {
     font-weight: 500;
     line-height: normal;   
     text-transform: uppercase;
+
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #419e7d;
 }
 
 #footer p {
